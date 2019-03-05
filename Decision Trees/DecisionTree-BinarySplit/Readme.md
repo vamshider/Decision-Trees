@@ -6,4 +6,4 @@
 
 * Each node is based on an attribute-value pair from the dataset.
 
-* The Dataset monks-1.train and monks-2.train from the UCI Machine Learning Repository.
+* The Dataset monks-1.train and monks-1.test from the UCI Machine Learning Repository.
