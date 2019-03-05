@@ -6,4 +6,4 @@
 
 * The decision tree is learned for the depths 1 to 10 to estimate the average train and test error for different datasets.
 
-Note: Visualisation file are created in your program directory
+Note: Visualisation files are created in your program directory
