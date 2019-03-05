@@ -216,12 +216,12 @@ def confusion_matrix(true_label, predicted_label):
     
 if __name__ == '__main__':
     # Load the training data
-    M = np.genfromtxt('./data/monks-1.train', missing_values=0, skip_header=0, delimiter=',', dtype=int)
+    M = np.genfromtxt('./monks-1.train', missing_values=0, skip_header=0, delimiter=',', dtype=int)
     ytrn = M[:, 0]
     Xtrn = M[:, 1:]
 
     # Load the test data
-    M = np.genfromtxt('./data/monks-1.test', missing_values=0, skip_header=0, delimiter=',', dtype=int)
+    M = np.genfromtxt('./monks-1.test', missing_values=0, skip_header=0, delimiter=',', dtype=int)
     ytst = M[:, 0]
     Xtst = M[:, 1:]
     
